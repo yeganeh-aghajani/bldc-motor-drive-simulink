@@ -1,0 +1,34 @@
+Test,Metric,Value,Unit
+Startup,"Rise time (10-90 %)",47.73,ms
+Startup,"Overshoot",0.140979380796757,%
+Startup,"Settling time (2 % band)",76.94,ms
+Startup,"Steady-state speed error",-0.0654666786638245,rpm
+Startup,"Peak phase current",4.33341365664373,A
+Startup,"Peak electromagnetic torque",3.62666918986567,N*m
+Startup,"Steady-state torque",0.354636758305721,N*m
+Startup,"RMS phase current (steady state)",0.366403266133731,A
+Load step,"Maximum speed drop",22.5324425752265,rpm
+Load step,"Time to maximum drop",4.84999999999997,ms
+Load step,"Recovery time (+/-0.5 % band)",20.13,ms
+Load step,"Steady-state speed error after step",0.0123048491720965,rpm
+Load step,"Mean torque before step",0.350193280246193,N*m
+Load step,"Mean torque after step",1.35530190838288,N*m
+Load step,"RMS phase current before step",0.361152659094502,A
+Load step,"RMS phase current after step",1.35960346104971,A
+Load step,"Effective torque constant after step",0.835343678409719,N*m/A
+Reference change,"0 -> 1000 rpm: rise time",38.01,ms
+Reference change,"0 -> 1000 rpm: overshoot",0.279417799587001,%
+Reference change,"0 -> 1000 rpm: settling time",63.31,ms
+Reference change,"0 -> 1000 rpm: steady-state error",0.0496547573455928,rpm
+Reference change,"1000 -> 1500 rpm: rise time",27.35,ms
+Reference change,"1000 -> 1500 rpm: overshoot",0.444316819738022,%
+Reference change,"1000 -> 1500 rpm: settling time",45.64,ms
+Reference change,"1000 -> 1500 rpm: steady-state error",0.0248473104063578,rpm
+Anti-windup,"Undershoot below 1000 rpm, without anti-windup",343.221656545243,rpm
+Anti-windup,"Time at duty limit, without anti-windup",172.1,ms
+Anti-windup,"Minimum integrator state, without anti-windup",-0.703016934790562,-
+Anti-windup,"Settling time (2 % of step), without anti-windup",309.62,ms
+Anti-windup,"Undershoot below 1000 rpm, with anti-windup",205.34703615688,rpm
+Anti-windup,"Time at duty limit, with anti-windup",88.2,ms
+Anti-windup,"Minimum integrator state, with anti-windup",1.40773298411363e-11,-
+Anti-windup,"Settling time (2 % of step), with anti-windup",254.1,ms
